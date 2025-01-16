@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Celulares menores*/
+
+@media screen (min-width: 576px) and (max-width: 767.98px) {
+  body {
+  }
+}
+
+/*Celulares e alguns tablets*/
+
+@media screen (min-width: 768px) and (max-width: 991.98px) {
+  body {
+  }
+}
+/*Tablets*/
+@media screen (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+  }
+}
+
+/*Notebook*/
+@media screen (min-width: 1200px) and (max-width: 1399.98px) {
+  body {
+  }
+}
+/*Desktop*/
+@media screen (min-width: 1400px) {
+  body {
+  }
+}
+
+.bem-vindo {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.889), rgba(0, 0, 0, 0.3)),
+    url("paisagem-2.jpg");
+  background-position: 30% 45%;
+  background-size: cover;
+  height: 100vh;
+  width: ;
+}
+
+.bem-vindo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #e9ecef;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+body {
+  font-family: sans-serif;
+  background-color: #e9ecef;
+  color: #343a40;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.apresentação {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 64px;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+  color: #212529;
+}
+.sobre {
+  align-self: center;
+  margin: 50px;
+  margin-bottom: 150px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img {
+  background-color: #a6a3a3;
+  border-radius: 12px;
+  box-shadow: 20px 15px 25px rgba(0, 0, 0, 0.153);
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 32px;
+  color: #212529;
+}
+.conhecimentos {
+  margin: 50px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 150px;
+}
+.icones {
+  height: 52px;
+}
+
+.texto-comentario {
+  background-color: #adb5bd;
+  padding: 55px;
+  font-size: 18px;
+  border-radius: 12px;
+  line-height: 1.6;
+  margin: 50px;
+  margin-bottom: 50px;
+}
+.comentario-icon {
+  height: 24px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 50px;
+}
+.contatos {
+  display: flex;
+  justify-content: center;
+  height: 42px;
+  margin: 45px;
+  margin-bottom: 48px;
+  border-radius: 100px;
+}
+
+footer {
+  padding: 90px;
+  font-size: 14px;
+  color: #495057;
+  text-align: center;
+}
